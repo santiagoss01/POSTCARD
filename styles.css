@@ -23,7 +23,8 @@ body {
 }
 .postcard-body {
 	display: flex;
-	height: -100px;
+	height: auto;
+	margin-left: 10px;
 }
 
 .body-left {
@@ -32,19 +33,21 @@ body {
 }
 .body-left p:first-child {
 	margin-top: auto;
-	width: 240px;
+	width: auto;
 	text-align: justify;
 }
 .body-left,
 .body-right {
 	padding: 10px;
-	width: -80px;
-	height: -80px;
+	width: auto;
+	height: auto;
 }
 .body-right input {
 	font-style: oblique;
 
 	text-decoration-color: lightblue;
+	padding-right: 5px;
+	margin-left: 10px;
 }
 
 input {
